@@ -1,0 +1,61 @@
+
+  .footer-below{
+      position: relative;     
+      background-color: rgba(51, 44, 46, 1);
+      height: 8vw;
+  }
+  .logo-img-footer { 
+      position: absolute;
+    width: 20%;
+    margin-left: 9%;
+    margin-top: .1%;
+    
+  }
+.footer-copyright{
+    position: absolute;
+    color: white;
+    font-size: .8vw;
+    margin-top: 5.9%;
+    margin-left: 9.5%;
+
+}
+.link-footer{
+    position: absolute;
+    margin-top: 5.5vw;
+    font-family: 'Poppins';
+
+    margin-left: 65%;
+}
+.link-footer-link{
+    padding: .5vw;
+    font-size: 1vw;
+}
+
+@media (min-width: 1px) and (max-width: 200px) {
+    .link-footer{
+        margin-top: 0px;
+    }
+
+    .footer-below{
+         height: 15vw;
+    }    
+}
+
+@media (min-width: 201px) and (max-width: 230px) {
+    .link-footer{
+        margin-top: .5px;
+    }
+
+}
+
+@media (min-width: 231px) and (max-width: 381px) {
+    .link-footer{
+        margin-top: 1.5vw;
+    }
+    
+}
+@media screen and (min-device-width: 382px) and (max-device-width: 780px) {
+    .link-footer{
+        margin-top: 3.5vw;
+    }
+}

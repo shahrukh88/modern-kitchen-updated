@@ -1,0 +1,123 @@
+
+.center3-mainpage-margin3{
+  margin-top: 13.5vw;
+  margin-bottom: 7vw;
+}
+  .column2-main-page-center {
+    float: left;
+    width: 40%;
+    height: 40vw;
+    padding-right: 10vw;
+    font-family: 'Poppins';
+    background-color: rgba(51, 44, 46, 1);
+    padding: 1%;
+     /* Should be removed. Only for demonstration */
+  }
+  .column4-main-page-center {
+    float: left;
+    width: 56%;
+    height: 40vw;
+    padding-right: 10vw;
+    font-family: 'Poppins';
+    background-color: rgba(51, 44, 46, 1);
+    padding: 1%;
+     /* Should be removed. Only for demonstration */
+  }
+  /* Clear floats after the columns */
+  .row2-main-page-center:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+
+  }
+  
+  .about-main-page-center{
+    font-size:3.513909224011713vw;
+    margin-top: 8%;
+     color: white;
+      font-family: 'Poppins';
+  }
+  
+  .p2-main-page-center{
+    font-size: 1vw;
+    font-family: 'Poppins';
+    margin-top: -4%;
+    
+    color: white;
+   margin-right: 0%; 
+  
+  }
+  .readmore-main-page-center{
+    background-color: rgba(242, 146, 29, 0.6);
+    width: 18%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  margin-top: 4.5%;
+  padding: 1.5%;
+  text-align: center;
+  font-size: 1vw;
+  font-size: 600;
+  }
+  .readmore-main-page-center:hover{
+    background-color: rgba(242, 146, 29, 0.9);
+   color: white;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .column3-main-page-center {
+    float: left;
+    width: 44%;
+    padding: 2%;
+    font-family: 'Poppins';
+    margin-top: 2%;
+    height: auto;
+     /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row3-main-page-center:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .img2-main-page-center { 
+    width: 70%;
+    margin-left: 72%;
+    height: auto;
+    opacity: 0.9;
+    
+    font-family: 'Poppins';
+    padding-bottom: 5%;
+  }
+  .img12-main-page-center { 
+    width: 70%;
+    margin-left: 72%;
+    font-family: 'Poppins';
+    opacity: 0.9;
+    padding-bottom: 5%;
+  }
+  .img3-main-page-center { 
+    
+    width: 70%;
+    margin-left: 42%;
+    padding-right: 20px;
+    height: auto;
+    opacity: 0.9;
+    padding-bottom: 5%;
+  }
+  .img13-main-page-center { 
+    width: 70%;
+    margin-left: 42%;
+
+    opacity: 0.9;
+    padding-bottom: 5%;
+  }
+
+ .marg-up{
+   margin-top: 3%;
+ }

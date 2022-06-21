@@ -1,0 +1,68 @@
+
+.collection-container {
+    position: relative;
+    width: 80%;
+     margin-left: 7.5%;
+    margin-top: 3%; }
+  
+.collection-logo{
+width: 95%;
+margin-left: 5%;
+
+}
+
+.bottom-left-c {
+    position: absolute;
+    bottom: 8%;
+    left: 15%;
+    width: 35%;
+    height: 20%;
+    text-align: left;
+    
+    color: rgba(242, 146, 29, 1);
+    font-size: 2vw;
+    font-family: 'Poppins';
+  }
+  
+  .top-left-c {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 35%;
+    height: 20%;
+    text-align: left;
+    
+    color: rgba(242, 146, 29, 1);
+    font-size: 2vw;
+    font-family: 'Poppins';
+  }
+  
+  .top-right-c {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 35%;
+    height: 20%;
+  
+    text-align: right;
+    color: rgba(242, 146, 29, 1);
+    font-size: 2vw;
+    font-family: 'Poppins';
+}
+  
+  .bottom-right-c {
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    width: 35%;
+    height: 20%;
+    text-align: right;
+  
+    color: rgba(242, 146, 29, 1);
+    font-size: 2vw;
+    font-family: 'Poppins';
+  }
+ .semi{
+   font-weight: 600;
+   margin-top: 1%;
+ }

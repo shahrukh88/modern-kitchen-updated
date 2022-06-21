@@ -1,0 +1,69 @@
+.about-footer{
+  background-color: rgba(51, 44, 46, 1);
+  height: 170px;
+}
+.footer-text{
+  font-family: 'Poppins';
+  color: white;
+  padding: 4px;
+  margin-left: 174px;
+  font-size: 13px;
+
+}
+.footer-text-2{
+  font-family: 'Poppins';
+  color: white;
+  padding: 5px;
+  margin-left: 150px;
+  font-size: 20px;
+
+}
+.verticle-line {
+  border-top: 1px solid rgb(220, 223, 220);
+ width: 35%;
+ margin-left: 20%;
+  
+}
+.footer-copy{
+ color: white;
+ font-size: 10px;
+ font-family: 'Poppins';
+
+ margin-left: 120px;   
+}
+
+.footer-link-main{
+    margin-left: 210px;
+    margin-top: 16px;
+}
+
+
+.footer-link{
+  padding: 10px;
+  font-family: 'Poppins';
+font-size: 12px;
+
+}
+
+.footer-logo{
+margin-top: 45px;
+margin-left: 400px;
+color: rgba(51, 44, 46, 1);
+
+}
+.footer-logo-image{
+width: 100px;
+}
+.float-container {
+padding: 8px;
+background-color: rgba(51, 44, 46, 1);
+
+}
+
+.float-child {
+width: 46%;
+float: left;
+padding: 20px;
+background-color: rgba(51, 44, 46, 1);
+
+}

@@ -1,0 +1,414 @@
+import { Link } from "react-router-dom"; 
+import React from 'react';
+import './modal/Modal.css';
+
+import Modal1 from "./modal/Modal1";
+
+import Modal2 from "./modal/Modal2";
+import Modal3 from "./modal/Modal3";
+import Modal4 from "./modal/Modal4";
+import Modal5 from "./modal/Modal5";
+import Modal6 from "./modal/Modal6";
+import Modal7 from "./modal/Modal7";
+import useModal1 from './modal/useModal1';
+import useModal2 from './modal/useModal2';
+import useModal3 from './modal/useModal3';
+import useModal4 from './modal/useModal4';
+import useModal5 from './modal/useModal5';
+import useModal6 from './modal/useModal6';
+import useModal7 from './modal/useModal7';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import frontslide from './images/frontslide.jpg' ;
+import kitchenlogo from '../mainpage/images/kitchenlogo.png' ;
+
+import p1 from './images/p1.jpg' ;
+import p2 from './images/p2.jpg' ;
+import p3 from './images/p3.jpg' ;
+import p4 from './images/p4.jpg' ;
+import p5 from './images/p5.jpg' ;
+import p6 from './images/p6.jpg' ;
+import p7 from './images/p7.jpg' ;
+import p8 from './images/p8.jpg' ;
+import p9 from './images/p9.jpg' ;
+import p10 from './images/p10.jpg' ;
+import p11 from './images/p11.jpg' ;
+import p12 from './images/p12.jpg' ;
+import p13 from './images/p13.jpg' ;
+import p14 from './images/p14.jpg' ;
+import p15 from './images/p15.jpg' ;
+import p16 from './images/p16.jpg' ;
+import p17 from './images/p17.jpg' ;
+import p18 from './images/p18.jpg' ;
+import p19 from './images/p19.jpg' ;
+import p20 from './images/p20.jpg' ;
+import p21 from './images/p21.jpg' ;
+
+import Footer from "../footer/Footer";
+
+import "../mainpage/Main.css";
+
+import './Main2.css';
+
+import './gallery.css';
+
+import './gallery-layout.css';
+import './gallery2.css';
+
+import './gallery3.css';
+import './center.css';
+
+
+
+
+const Platinum = () => {
+
+  const {isShowing1, toggle1} = useModal1();
+  const {isShowing2, toggle2} = useModal2();
+  const {isShowing3, toggle3} = useModal3();
+  const {isShowing4, toggle4} = useModal4();
+  const {isShowing5, toggle5} = useModal5();
+  const {isShowing6, toggle6} = useModal6();
+  const {isShowing7, toggle7} = useModal7();
+  return (
+    <div>
+        
+        
+        <div className="container">
+        <div className='center-pl'><b>Platinum Collection</b></div>
+      <div className='center-pl2'><div className="textop">With classic comfort and sophisticated refinement, the Platinum Collection features an array of cabinet choices to beautifully update any kitchen. As all Forevermark cabinets are designed with the utmost quality and durability, you can rest assured that your kitchen will be beautiful and functional for years to come. Select styles feature Waterborne UV Finishes from Sherwin<br/>Williams and Greenguard Gold certification, which ensures that a product is acceptable for use in sensitive indoor places.</div></div>
+    
+        <div className="nav-main">
+           
+           <div>
+           <img className='logo-img-m' src={kitchenlogo} />
+             </div>   
+             <div className='links-main'>
+         
+           
+         <Link className="link-main" to="/"> Home</Link>
+         <div className="dropdown">
+         <Link className="link-main" to="#">Cabinets&nbsp;&nbsp;<FontAwesomeIcon icon="fas fa-caret-down" /></Link>  
+           <div className="dropdown-content">
+           <Link className="sub" to="/titainum">Titaninum Collection</Link>
+           <Link className="sub" to="/platinum">Platinum Collection</Link>
+           <Link className="sub" to="/gold">Gold Collection</Link>
+           <Link className="sub" to="/silver">Silver Collection</Link>
+             </div>
+          </div>
+         <Link className="link-main" to="/Contact"> Contact</Link>
+         <Link className="link-main" to="/Aboutus"> About</Link>
+              
+          </div>
+         </div>
+          
+      
+      <img className='img' src={frontslide} />
+          </div>
+
+
+ 
+
+<div className="container-gall1">
+
+  <div className="bottom-left-gall1"></div>
+  <div className="top-left-gall1"> <div className="rope-gall1">Sienna Rope (MR)</div>
+    <div className="top-left2-gall1"><div className="">With its warm, inviting finish and intricate panel detailing, Sienna Rope provides an elegant, timeless update and classic beauty to the kitchen.</div>
+      <div className="ul1-gall1">
+       
+        <li>Constructed of solid birch</li>
+        <li>Undermount, full extension drawer glides with soft closing feature</li>
+        <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+        <li>Concealed 6-way adjustable soft close door hinges</li>
+        <li>Waterborne UV Finish</li>
+        <li>Greenguard Gold Certified</li>
+       
+       <div className="" >
+       <button className="spec2-gall1" onClick={toggle1}>VIEW SPEC SHEET</button>
+      <Modal1
+        isShowing1={isShowing1}
+        hide1={toggle1}
+      />
+
+ 
+       </div>
+
+      </div>
+   </div>
+     <div className="pl1-gall1-margineft">
+     <img className='pl1-gall1' src={p1} /> 
+     </div>
+
+  </div>
+  
+  <div className="top-right-gall1"><img className="pl2-gall1" src={p3} /></div>
+
+    <div className="centered-gall1"><img className="pl3-gall1" src={p2} /></div>
+</div>
+
+
+
+
+<div class="container-g2">
+
+<div className="container">
+  <div className="bottom-left"></div>
+  <div class="top-left-g2"><img className="pl-g12" src={p4} /></div>
+   <div className="top-right">Gramercy White (GW)</div>
+  <div className="bottom-right">
+   <img className='pl-g-layout' src={p5} />  
+   
+
+    <div className="bottom-right-2">
+    
+    <div className="marg-left-write"> The Ice White Shaker collection features a clean, simple design that pairs well with any layout or color scheme. Its versatility makes it a popular choice in both modern and traditional homes. The Ice White finish lends a clean, classic look for an elegant kitchen update.</div>
+    <div className="ul1-gall2">
+     
+     <li>Constructed of solid birch</li>
+     <li>Undermount, full extension drawer glides with soft closing feature</li>
+     <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+     <li>Concealed 6-way adjustable soft close door hinges</li>
+     <li>Waterborne UV Finish</li>
+     <li>Greenguard Gold Certified</li>
+    
+    <div className="" >
+
+    <button className="spec2-gall2" onClick={toggle4}>View spec sheet</button>
+     <Modal4
+       isShowing4={isShowing4}
+       hide4={toggle4}
+     />
+
+    </div>
+</div>
+     </div>
+     <div class="centered-mid"><img className="pl-glayout" src={p6} /></div>
+
+  </div>
+  
+</div>
+</div>
+
+
+
+<div className="container-g3">
+<div className="bottom-left-gall1"></div>
+<div className="top-left-gall1"> <div className="rope-gall3">Sienna Rope (MR)</div>
+  <div className="top-left2-gall3"><div className="">With its warm, inviting finish and intricate panel detailing, Sienna Rope provides an elegant, timeless update and classic beauty to the kitchen.</div>
+    <div className="ul1-gall1">
+     
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      <li>Waterborne UV Finish</li>
+      <li>Greenguard Gold Certified</li>
+     
+     <div className="" >
+     <button className="spec2-gall1" onClick={toggle3}>VIEW SPEC SHEET</button>
+     <Modal3
+        isShowing3={isShowing3}
+        hide3={toggle3}
+      />
+
+
+     </div>
+
+    </div>
+ </div>
+   <div className="pl1-gall1-margineft">
+   <img className='pl1-gall1' src={p7} /> 
+   </div>
+
+</div>
+
+<div className="top-right-gall1"><img className="pl2-gall1" src={p9} /></div>
+
+  <div className="centered-gall1"><img className="pl3-gall1" src={p8} /></div>
+</div>
+
+
+<div class="container-g4">
+<div class="bottom-left-g2"></div>
+<div class="top-left-g2"><img className="pl-g12" src={p10} /></div>
+<div class="top-right-g2"><div className="rope-g2">Gramercy White (GW)</div>
+<div class="top-right-g12"><div className="marg-left-write"> The Ice White Shaker collection features a clean, simple design that pairs well with any layout or color scheme. Its versatility makes it a popular choice in both modern and traditional homes. The Ice White finish lends a clean, classic look for an elegant kitchen update.</div>
+    <div className="ul1-gall2">
+     
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      <li>Waterborne UV Finish</li>
+      <li>Greenguard Gold Certified</li>
+     
+     <div className="" >
+
+     <button className="spec2-gall2" onClick={toggle4}>View spec sheet</button>
+      <Modal4
+        isShowing4={isShowing4}
+        hide4={toggle4}
+      />
+
+     </div>
+</div>
+</div>
+<div className="margin-picture-pl-g2">
+   <img className='pl-g2' src={p12} /> 
+   </div>
+
+</div>
+
+
+<div class="centered-g2"><img className="pl-g23" src={p11} /></div>
+
+   </div>
+
+
+
+<div className="container-g5">
+<div className="bottom-left-gall1"></div>
+<div className="top-left-gall1"> <div className="rope-gall5">Town Square Grey (TS)</div>
+  <div className="top-left2-gall5"><div className="">ontemporary design, flat doors, and clean lines make the Town Square Grey line the perfect choice for a modern, striking contrast in the kitchen.</div>
+    <div className="ul1-gall1">
+     
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      <li>Waterborne UV Finish</li>
+      <li>Greenguard Gold Certified</li>
+     
+     <div className="" >
+     <button className="spec2-gall2 " onClick={toggle5}>View spec sheet</button>
+      <Modal5
+        isShowing5={isShowing5}
+        hide5={toggle5}
+      />
+
+
+     </div>
+
+    </div>
+ </div>
+   <div className="pl1-gall1-margineft">
+   <img className='pl1-gall1' src={p13} /> 
+   </div>
+
+</div>
+
+<div className="top-right-gall1"><img className="pl2-gall1" src={p15} /></div>
+
+  <div className="centered-gall1"><img className="pl3-gall1" src={p14} /></div>
+
+
+
+</div>
+
+
+
+
+<div class="container-g6">
+
+<div class="bottom-left-g2"></div>
+<div class="top-left-g2"><img className="pl-g12" src={p16} /></div>
+<div class="top-right-g2"><div className="rope-g3">Gramercy White (GW)</div>
+<div class="top-right-g13"><div className="marg-left-write"> The Ice White Shaker collection features a clean, simple design that pairs well with any layout or color scheme. Its versatility makes it a popular choice in both modern and traditional homes. The Ice White finish lends a clean, classic look for an elegant kitchen update.</div>
+    <div className="ul1-gall2">
+     
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      <li>Waterborne UV Finish</li>
+      <li>Greenguard Gold Certified</li>
+     
+     <div className="" >
+
+     <button className="spec2-gall2" onClick={toggle6}>View spec sheet</button>
+      <Modal6
+        isShowing6={isShowing6}
+        hide6={toggle6}
+      />
+
+     </div>
+</div>
+</div>
+<div className="margin-picture-pl-g2">
+   <img className='pl-g2' src={p18} /> 
+   </div>
+
+</div>
+
+
+<div class="centered-g2"><img className="pl-g23" src={p17} /></div>
+
+</div>
+
+
+
+<div className="container-g7">
+<div className="bottom-left-gall1"></div>
+<div className="top-left-gall1"> <div className="rope-gall7">Lait Grey Shaker (AB)</div>
+  <div className="top-left2-gall6"><div className="">For a softer, yet contemporary kitchen, the Lait Grey Shaker is the perfect cabinet choice. The clean lines and warm grey provide a soothing, comfortable atmosphere.</div>
+    <div className="ul1-gall1">
+     
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      <li>Waterborne UV Finish</li>
+      <li>Greenguard Gold Certified</li>
+     
+     <div className="" >
+     <button className="spec2-gall1" onClick={toggle7}>View spec sheet</button>
+      <Modal7
+        isShowing7={isShowing7}
+        hide7={toggle7}
+      />
+
+
+     </div>
+
+    </div>
+ </div>
+   <div className="pl1-gall1-margineft">
+   <img className='pl1-gall1' src={p19} /> 
+   </div>
+
+</div>
+
+<div className="top-right-gall1"><img className="pl2-gall1" src={p21} /></div>
+
+  <div className="centered-gall1"><img className="pl3-gall1" src={p20} /></div>
+
+
+</div>
+
+
+
+<div className="marg"></div>
+
+
+ 
+<div>
+         
+ 
+
+
+
+
+
+
+
+ </div>
+
+
+<Footer/>
+    
+    </div>
+  )
+}
+
+export default Platinum;

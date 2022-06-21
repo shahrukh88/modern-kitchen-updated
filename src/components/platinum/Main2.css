@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Poppins'
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .container {
+    position: relative;
+    font-size: 100%;
+    height: 500%;
+    width: 100%;
+  }
+  
+  .nav2 {
+    transition: all 0.1s linear;
+    position: absolute;
+    z-index: 2000;
+      width: 100%;
+    text-align:center;
+    height:32%;
+    font-family: 'Poppins';
+
+    opacity: 0.8;
+    background-color:rgba(51, 44, 46, 0.6);
+  }
+  .logo-img { 
+    width: 280px;
+    height: auto;
+  }
+ 
+  .topleft {
+    position: absolute;
+    top: 8px;
+    margin-left: 50%;
+    font-size: 18px;
+  }
+  
+  .img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+  }
+  .h1bebas{
+    font-family: 'Poppins';
+    color: white;
+  }
+  
+  .h2bebas{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 200%;
+      
+  }
+  .vl {
+    border-top: 2px solid rgb(220, 223, 220);
+   width: 20%;
+   margin-left: 40%;
+    
+  }
+  .center-pl {
+    position: absolute;
+    top: 48%;
+    z-index: 2000;
+    width: 30%;
+    margin-left: 9%;
+    padding-left: 2%;
+    text-align: left;
+    font-size: 2.4vw;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(153, 188, 195, 0.5);
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;    
+  }
+  
+  .center-pl2{
+    position: absolute;
+    top: 65%;
+    z-index: 2000;
+    width: 60%;
+    margin-left: 9%;
+    text-align: left;
+    padding: .8vw;
+    font-size: .9vw;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(83, 84, 85, .6);
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+  
+    
+  }  
+.dembold{
+font-weight: 500;
+}
+
+  .collection{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 20px;
+    font-size: 10px;
+    color: #2b663a;
+    font-family: 'Poppins';
+  }
+  
+  .vl2 {
+    border-top: 2px solid black;
+   width: 20%;
+   margin-left: 40%;
+   font-family: 'Poppins';
+  }
+  
+  .column2 {
+    float: left;
+    width: 48%;
+    height: 600px;
+    
+    margin-top: 2%;
+    font-family: 'Poppins';
+    background-color: rgba(51, 44, 46, 1);
+    padding: 10px;
+   
+     /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 50px;
+  }
+  
+  .about{
+    font-size: 30px;
+    margin-top: 18%;
+     color: white;
+     font-family: 'Poppins';
+  }
+  
+  .p2{
+    font-size: 10px;
+    font-family: 'Poppins';
+    margin-top: 1%;
+    color: white;
+    
+  
+  }
+  .readmore{
+    background-color: rgba(242, 146, 29, 0.9);
+    width: 100px;
+    font-family: 'Poppins';
+  color: white;
+  margin-top: 2%;
+  padding: 1%;
+  text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .column3 {
+    float: left;
+    width: 42%;
+    padding: 18px;
+    font-family: 'Poppins';
+    height: auto;
+     /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .img2 { 
+    width: 78%;
+    margin-left: 40%;
+    height: auto;
+    opacity: 0.9;
+    font-family: 'Poppins';
+    padding-bottom: 5%;
+  }
+  .img12 { 
+    width: 80%;
+    margin-left: 40%;
+    font-family: 'Poppins';
+    height: 450px;
+    opacity: 0.9;
+    padding-bottom: 2%;
+  }
+  .img3 { 
+    
+    width: 75%;
+    margin-left: 20%;
+    height: auto;
+    opacity: 0.9;
+    padding-bottom: 5%;
+  }
+  .img13 { 
+    width: 80%;
+    margin-left: 18%;
+    height: 450px;
+    opacity: 0.9;
+    padding-bottom: 5%;
+  }
+  .me{
+    position: fixed;
+  
+    background-color: black;
+  }
+  
+  a:hover {
+    color: #fcb603;
+  }
+  
+  a:active {
+    color: #fcb603;
+  } 
+  
+  .links{
+    padding: 18px;
+  }
+  .link{
+    padding: 8px;
+    font-family: 'Poppins';
+    
+  
+  }
+  /* Create four equal columns that floats next to each other */
+  .text-center{
+    font-family: 'Poppins';
+    color: rgba(242, 146, 29, 1);
+    font-size: 20px;
+ }
+
+/* Create two equal columns that floats next to each other */
+.column5 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  /* Responsive layout - makes a two column-layout instead of four columns */
+ 
+
+  .container-gall1{
+    margin-left: 3.5%;
+
+  }
