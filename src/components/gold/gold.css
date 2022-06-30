@@ -13,5 +13,123 @@
     font-family: 'Poppins';
     
   }
+  .center-gold-1{
+    position: absolute;
+    top: 65%;
+    z-index: 2000;
+    width: 60%;
+    margin-left: 9%;
+    text-align: left;
+    padding: .8vw;
+    font-size: .9vw;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(83, 84, 85, .6);
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+  
+    
+  } 
+  .center-gold-2{
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+    width: 0%;
+    margin-left: 0%;
+    text-align: left;
+    padding: 0vw;
+    font-size: 0vw;
+    font-weight: 0;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(83, 84, 85, .6);
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+  
+    
+  } 
+  .center-pl-g-2 {
+    position: absolute;
+    top: 0%;
+    z-index: 2000;
+    width: 0%;
+    margin-left: 0%;
+    text-align: left;
+    padding-left: 0%;
+    font-size: 0vw;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(242, 146, 29, 0.6);
+    opacity: 0.9;
+    font-family: 'Poppins';
+    
+  }
 
  
+@media (max-width:800px) {
+  .center-pl-g {
+    position: absolute;
+    top: 0%;
+    z-index: 2000;
+    width: 0%;
+    margin-left: 0%;
+    text-align: left;
+    padding-left: 0%;
+    font-size: 0vw;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(242, 146, 29, 0.6);
+    opacity: 0.9;
+    font-family: 'Poppins';
+    
+  }
+
+ 
+  .center-pl-g-2 {
+    position: absolute;
+    top: 35%;
+    z-index: 2000;
+    width: 35%;
+    margin-left: 2%;
+    text-align: left;
+    padding-left: 2%;
+    font-size: 4vw;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(242, 146, 29, 0.6);
+    opacity: 0.9;
+    font-family: 'Poppins';
+    
+  }
+  .center-gold-2{
+    position: absolute;
+    top: 50%;
+    z-index: 2000;
+    width: 80%;
+    margin-left: 2%;
+    text-align: left;
+    padding: .8vw;
+    font-size: 2.3vw;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(83, 84, 85, .6);
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+  
+    
+  } 
+  .center-gold-1{
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+    width: 0%;
+    margin-left: 0%;
+    text-align: left;
+    padding: 0vw;
+    font-size: 0vw;
+    font-weight: 0;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(83, 84, 85, .6);
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+  
+    
+  } 
+
+}

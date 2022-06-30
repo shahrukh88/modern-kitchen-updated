@@ -210,3 +210,14 @@ margin-left: -10vw;
 }
 
 
+
+@media (max-width:800px) {
+  
+
+.container-g2 {
+  bottom: 5vw;
+  margin-top: 170vw;
+  
+}
+
+}

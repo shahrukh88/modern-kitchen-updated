@@ -16,6 +16,21 @@
     
     
   }
+  .center-term-2 {
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    margin-left: 0%;
+    text-align: center;
+    font-size: 0vw;
+    padding-right: 0vw;
+    color: white;
+    background-color: rgba(242, 146, 29, 0.6);
+    opacity: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
+  }
   .logo-img { 
     width: 280px;
     height: auto;
@@ -24,15 +39,18 @@
   .center-term-details{
       background-color: rgba(51, 44, 46, 0.4);
       height: auto; 
-      margin-top: 5%;
-      margin-left: 15%;
+      margin-top: 2%;
+      margin-left: 16%;
       margin-right: 10%;
-      margin-bottom: 5%;
+      margin-bottom: 3%;
       padding-left: 5vw;
       padding-right: 5vw;
-      width: 60vw;
+      padding-bottom: 1.6%;
+      width: 66vw;
       text-align: center;
-      
+      font-family: 'Poppins', sans-serif;
+       
+       
     }
     .center-term-text{
         padding: 1vw;
@@ -44,13 +62,85 @@
     .sm-font{
       font-weight: 600;
       font-family: 'Poppins', sans-serif;
-     font-size: 1.6vw;
+     font-size: 1.4vw;
      margin-top: 2%;
     }
     .sm-medium{
       font-weight: 500;
       font-family: 'Poppins', sans-serif;
      font-size: 1vw;
-     margin-top: -1%;
+     margin-top: 1%;
 
     }
+    .img-front-term { 
+      width: 0%;
+      height: auto;
+      opacity: 1;
+    }
+    
+  
+@media (max-width:800px) {
+
+  .img-front-term { 
+    width: 200%;
+    height: auto;
+    opacity: 1;
+  }
+  
+.center-term-2 {
+  position: absolute;
+  top: 60%;
+  width: 60%;
+  margin-left: 10%;
+  text-align: center;
+  font-size: 6vw;
+  padding-right: 2.8vw;
+  color: white;
+  background-color: rgba(242, 146, 29, 0.6);
+  opacity: 0.9;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+.center-term {
+  position: absolute;
+  top: 0%;
+  width: 0%;
+  margin-left: 0%;
+  text-align: center;
+  font-size: 0vw;
+  padding-right: 0vw;
+  color: white;
+  background-color: rgba(242, 146, 29, 0.6);
+  opacity: 0.9;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+.center-term-details{
+  margin-top: -5%;
+  margin-left: 7.5%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 3%;
+  width: 85vw;
+  
+}
+.center-term-text{
+    padding: 1vw;
+     font-size: 3vw;
+}
+.sm-font{
+  font-weight: 600;
+  font-size: 4vw;
+ margin-top: 2%;
+}
+.sm-medium{
+ font-size: 2.5vw;
+ margin-top: 1%;
+
+}
+
+} 

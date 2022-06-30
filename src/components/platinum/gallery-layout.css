@@ -48,7 +48,7 @@ margin-left: 48vw;
   color: rgba(255, 255, 255, 1);
 
   font-size: 1.5vw;
-margin-left: 55vw;
+margin-left: 53.5vw;
   width: 20vw;
  padding: .8vw;
   font-size: 1.5vw;
@@ -345,28 +345,7 @@ font-weight: 600;
   background-color: rgba(177, 177, 177, 100%);
 
 }
-.spec2-gall2-s2{
-  margin-left: 1%;
-  font-size: 1vw;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  width: 12vw;
-  font-family: 'Poppins', sans-serif;
-opacity: 1;
-font-weight: 600;
-  color: #fff;
-  padding: 1%;
-  font-weight: 600;
-  text-align: center;
-     background-color: rgba(210, 97, 3, 0.6);
-}
 
-.spec2-gall2-s2:hover{
-  color: white;
-  opacity: 100%;
-  background-color: rgba(210, 97, 3, 1);
-
-}
 
 .spec2-gall2-g2{
   margin-left: 1%;
@@ -413,95 +392,9 @@ font-weight: 600;
   background-color: rgba(178, 178, 176, 1);
 
 }
-.spec2-gallg3spec{
-  margin-left: 1%;
-    font-size: 1vw;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 12vw;
-    font-family: 'Poppins', sans-serif;
-opacity: 1;
-font-weight: 600;
-    color: #fff;
-    padding: 1%;
-    font-weight: 600;
-    text-align: center;
-    background-color: rgba(39, 9, 0, 0.8);
-}
 
-.spec2-gallg3spec:hover{
-  color: white;
-  opacity: 100%;
-  background-color: rgba(39, 9, 0, 1);
 
-}
-.spec2-gallt3{
-  margin-left: 1%;
-    font-size: 1vw;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 12vw;
-    font-family: 'Poppins', sans-serif;
-opacity: 1;
-font-weight: 600;
-    color: #fff;
-    padding: 1%;
-    font-weight: 600;
-    text-align: center;
-    background-color: rgba(227, 214, 198, 0.6);
-}
-
-.spec2-gallt3:hover{
-  color: white;
-  opacity: 100%;
-  background-color: rgba(227, 214, 198, 1);
-
-}
-.spec2-gallp3{
-  margin-left: 1%;
-    font-size: 1vw;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 12vw;
-    font-family: 'Poppins', sans-serif;
-opacity: 1;
-font-weight: 600;
-    color: #fff;
-    padding: 1%;
-    font-weight: 600;
-    text-align: center;
-    background-color: rgba(188, 166, 149, 80%);
-}
-
-.spec2-gallp3:hover{
-  color: white;
-  opacity: 100%;
-  background-color: rgba(208, 190, 175, 1);
-
-}
-.spec2-gallp5{
-  margin-left: 1%;
-    font-size: 1vw;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 12vw;
-    font-family: 'Poppins', sans-serif;
-opacity: 1;
-font-weight: 600;
-    color: #fff;
-    padding: 1%;
-    font-weight: 600;
-    text-align: center;
-    background-color: rgba(110, 109, 112, 80%);
-}
-
-.spec2-gallp5:hover{
-  color: white;
-  opacity: 100%;
-  background-color: rgba(34, 32, 33, 1);
-
-}
-.spec2-gallp7{
+.spec2-gallsilver3{
   margin-left: 1%;
   font-size: 1vw;
   margin-top: 1%;
@@ -514,17 +407,15 @@ font-weight: 600;
   padding: 1%;
   font-weight: 600;
   text-align: center;
-  background-color: rgba(155, 158, 164, 80%);
+  background-color: rgba(114, 93, 88, 80%);
 }
 
-.spec2-gallp7:hover{
+.spec2-gallsilver3:hover{
   color: white;
   opacity: 100%;
-  background-color: rgba(177, 181, 187, 1);
+  background-color: rgba(114, 93, 88, 100%);
 
 }
 
-
 }
-
 

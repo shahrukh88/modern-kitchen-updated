@@ -21,7 +21,7 @@
     background-color: #f9f9f9;
     font-family: 'Poppins', sans-serif;
 font-size: 1vw;
-margin-top: 9%;    
+margin-top: -15%;    
 min-width: 15vw;
     font-weight: bold;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -37,7 +37,7 @@ min-width: 15vw;
   }
   
   .dropdown-content .sub:hover {
-      background-color:rgb(242, 146, 29, 100);
+      background-color: rgb(242, 146, 29, 100);
       font-family: 'Poppins';
       opacity: 1;
       font-weight: 900;

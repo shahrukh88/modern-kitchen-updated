@@ -29,7 +29,19 @@
 .link-footer-link{
     padding: .5vw;
     font-size: 1vw;
+    color: white;
 }
+.link-footer-link-term{
+    padding: .5vw;
+    font-size: 1vw;
+    margin-top: 0vw;
+    color: white;
+}
+.top-term{
+    margin-top:-1.4vw;
+    margin-left: 19vw;
+      
+  }
 
 @media (min-width: 1px) and (max-width: 200px) {
     .link-footer{
@@ -58,4 +70,54 @@
     .link-footer{
         margin-top: 3.5vw;
     }
+}
+
+
+@media (max-width:800px){
+    .footer-below{
+        position: relative;     
+        background-color: rgba(51, 44, 46, 1);
+        height: 15vw;
+    }
+    .logo-img-footer { 
+        position: absolute;
+      width: 22%;
+      margin-left: 9%;
+      margin-top: 2%;
+      
+    }
+  .footer-copyright{
+      position: absolute;
+      color: white;
+      font-size: 1.5vw;
+      margin-top: 11%;
+      margin-left: 9.5%;
+  
+  }
+  .link-footer{
+      position: absolute;
+      margin-top: 4.2vw;
+      font-family: 'Poppins';
+  
+      margin-left: 45%;
+  }
+  .link-footer-link{
+      padding: 1vw;
+      font-size: 2vw;
+      margin-left: 2vw;
+      color: white;
+  }
+  .link-footer-link-term{
+    padding: 1vw;
+    font-size: 1.5vw;
+    
+    margin-left: 2vw;
+    color: white;
+}
+  .top-term{
+    margin-left:28vw;
+ margin-top: .5vw;
+
+  }
+  
 }

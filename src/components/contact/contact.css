@@ -1,11 +1,11 @@
 
   .center-contact{
     position: absolute;
-    top: 12vw;
+    top: 14vw;
     width: 22%;
     margin-left: 8%;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.4vw;
     padding-left: .3vw;
       padding-right: 3.5vw;
      
@@ -23,7 +23,7 @@
     text-align: left;
     font-weight:500 ;
     padding: .5%;
-    font-size: 1.2vw;
+    font-size: .9vw;
     z-index: 2000;
     color: white;
     background-color:rgba(51, 44, 46, 0.4);
@@ -34,7 +34,8 @@
     
   }
   .width-captcha{
-    height: 2%;
+    width: 1vw;
+    height: 2vw;
   }
   /* Create four equal columns that floats next to each other */
 
@@ -57,12 +58,20 @@
 .vl {
   border-top: 3px solid gray;
   width: 85%;
-  margin-left: 6%;
+  margin-left: 8%;
+ 
+}
+.vl2 {
+  border-top: 3px solid gray;
+  width: 85%;
+  margin-left: 8%;
+  margin-top: -8vw;
 
 }
 .map-img{
   width: 40%;
   margin-left: 15%;
+  margin-top: 4.5vw;
 }
 
 .icons-contact{
@@ -72,10 +81,19 @@
   font-weight: 500;
   font-size: 1.4641288433382138vw;
 }
+.icons-contact2{
+  margin-left: 16%;
+  padding: 1%;
+  margin-top: -1%;
+  color: black;
+  font-weight: 500;
+  font-size: 1.4641288433382138vw;
+}
 .contact-icon{
   color: black;
    font-weight: 2px;
   margin-left: 2%;
+  font-size: 1vw;
 }
 .contact-icon:hover{
   color: black;
@@ -83,5 +101,11 @@
 .label-text{
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 1.7569546120058566vw;
+  font-size: 1.4vw;
+}
+.label-text2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-left: 29vw;
+  font-size: .7vw;
 }

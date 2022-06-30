@@ -9,7 +9,17 @@ import useModalg1 from '../platinum/modal/useModalg1';
 import useModalg2 from '../platinum/modal/useModalg2';
 import useModalg3 from '../platinum/modal/useModalg3';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '../platinum/Main2.css';
 
+import '../platinum/gallery.css';
+import '../platinum/gallery2.css';
+
+import '../platinum/gallery3.css';
+import '../mainpage/Main.css'
+import '../platinum/gallery-layout.css';
+
+import '../platinum/gallery-layout-2.css';
+import '../platinum/center.css';
 
 import frontslide from './images/gslide.jpg' ;
 import kitchenlogo from '../mainpage/images/kitchenlogo.png' ;
@@ -34,7 +44,7 @@ import '../platinum/gallery-layout.css';
 
 import '../platinum/gallery3.css';
 import '../platinum/center.css';
-
+import Header from './Header-gold'
 
 import './gold.css';
 
@@ -50,9 +60,9 @@ const Gold  = () => {
     <div>
         
         
-        <div className="container">
+        <div className="container-main1">
         <div className='center-pl-g'><b>Gold Collection</b></div>
-      <div className='center-pl2'>Our versatile and elegant Gold Collection cabinets come in an array of designs and finishes, perfect for elevating the style and feel of your kitchen. As all Forevermark cabinets are designed with the utmost quality and durability, you can rest assured that your kitchen will be beautiful and functional for years to come. Select styles feature Waterborne UV Finishes from Sherwin Williams and Greenguard Gold certification, which ensures that a product is acceptable for use in sensitive indoor places.</div>
+      <div className='center-gold-1'>Our versatile and elegant Gold Collection cabinets come in an array of designs and finishes, perfect for elevating the style and feel of your kitchen. As all Forevermark cabinets are designed with the utmost quality and durability, you can rest assured that your kitchen will be beautiful and functional for years to come. Select styles feature Waterborne UV Finishes from Sherwin Williams and Greenguard Gold certification, which ensures that a product is acceptable for use in sensitive indoor places.</div>
     
         <div className="nav-main">
            
@@ -80,7 +90,16 @@ const Gold  = () => {
     
       <img className='img-front' src={frontslide} />
           </div>
-
+          <div className="container-main2">
+          <div className='center-pl-g-2'><b>Gold Collection</b></div>
+      <div className='center-gold-2'>Our versatile and elegant Gold Collection cabinets come in an array of designs and finishes, perfect for elevating the style and feel of your kitchen. As all Forevermark cabinets are designed with the utmost quality and durability, you can rest assured that your kitchen will be beautiful and functional for years to come. Select styles feature Waterborne UV Finishes from Sherwin Williams and Greenguard Gold certification, which ensures that a product is acceptable for use in sensitive indoor places.</div>
+    
+         <img className='img-front-silver' src={frontslide} />
+       
+         <Header/>
+ 
+           </div>
+      
 
           <div className="container-gall1">
 
@@ -115,7 +134,7 @@ const Gold  = () => {
 
 <div className="top-right-gall1"><img className="pl2-gall1" src={p3} /></div>
 
-  <div className="centered-gall1"><img className="pl3-goldl1" src={p1} /></div>
+  <div className="centered-gall1"><img className="pl3-goldcenter1" src={p1} /></div>
 </div>
 
 
@@ -124,39 +143,39 @@ const Gold  = () => {
 
 
 <div class="container-g2">
-  <div className="bottom-left"></div>
-  <div class="top-left-g2"><img className="pl-g12" src={p6} /></div>
-   <div className="top-right-g1lay">Ice White Shaker (AW)</div>
-  <div className="bottom-right">
-   <img className='pl-g-layout-g2' src={p4} />  
-   
 
-    <div className="bottom-right-2-g2lay">
-    
-    <div className=""> The Ice White Shaker collection features a clean, simple design that pairs well with any layout or color scheme. Its versatility makes it a popular choice in both modern and traditional homes. The Ice White finish lends a clean, classic look for an elegant kitchen update.</div>
-    <div className="">
-     
-    <ul className="ul1-gall-layout">
-    
-     <li>Constructed of solid birch</li>
-     <li>Undermount, full extension drawer glides with soft closing feature</li>
-     <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
-     <li>Concealed 6-way adjustable soft close door hinges</li>
-    <li>Waterborne UV Finish</li>
-    <li>Greenguard Gold Certified</li>
-    </ul>
-    <div className="" >
+<div className="bottom-left-lay2"></div>
+<div className="top-left-gall-lay2"> <div className="rope-gall-lay2-g2">Ice White Shaker (AW)</div>
+  <div className="top-left2-gall-lay2-g2">The Ice White Shaker collection features a clean, simple design that pairs well with any layout or color scheme. Its versatility makes it a popular choice in both modern and traditional homes. The Ice White finish lends a clean, classic look for an elegant kitchen update.
+    <div>
+     <ul className="ul1-gall-layout">
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      <li>Waterborne UV Finish</li>
+      <li>Greenguard Gold Certified</li>
+     </ul>  
+     <div className="" >
     <button className="spec2-gall2-g2" onClick={toggleg2}>VIEW SPECS SHEET</button>
     <Modalg2
-      isShowingg2={isShowingg2}
-      hideg2={toggleg2}
-    />
+         isShowingg2={isShowingg2}
+         hideg2={toggleg2}
+              />
+          
+    </div>
   </div>
-</div>
-     </div>
-     <div class="centered-mid-g2gold"><img className="pl-glayout" src={p5} /></div>
+ </div>
+   <div className="">
+   <img className='pl1-gall-lay2' src={p4} /> 
+   </div>
 
-  </div>
+</div>
+
+<div className="top-right-gall-lay2"><img className="pl2-gall-lay2" src={p6} /></div>
+
+  <div className="centered-gall-lay2"><img className="pl3-gall-lay2-gcenter2" src={p5} /></div>
+  
   
   
 
@@ -198,7 +217,7 @@ const Gold  = () => {
 </div>
 
 <div className="top-right-gall1"><img className="pl2-gall1" src={p9} /></div>
-<div className="centered-galls1"><img className="pl3-gold3" src={p8} /></div>
+<div className="centered-galls1"><img className="pl3-goldcenter3" src={p8} /></div>
 
 </div>
 
@@ -220,8 +239,9 @@ const Gold  = () => {
  </div>
 
 
-<Footer/>
     
+ <Footer/>
+
     </div>
   )
 }

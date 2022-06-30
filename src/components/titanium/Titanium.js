@@ -35,7 +35,11 @@ import '../platinum/gallery2.css';
 import '../platinum/gallery3.css';
 import '../platinum/center.css';
 
+import '../platinum/gallery-layout.css';
 
+
+import '../platinum/center.css';
+import Header from './Header-tit'
 
 
 const Titaninum  = () => {
@@ -49,7 +53,7 @@ const Titaninum  = () => {
     <div>
         
         
-        <div className="container">
+        <div className="container-main1">
         <div className='center-pl'><b>Titaninum Collection</b></div>
       <div className='center-pl2'>Our versatile and elegant Gold Collection cabinets come in an array of designs and finishes, perfect for elevating the style and feel of your kitchen. As all Forevermark cabinets are designed with the utmost quality and durability, you can rest assured that your kitchen will be beautiful and functional for years to come. Select styles feature Waterborne UV Finishes from Sherwin Williams and Greenguard Gold certification, which ensures that a product is acceptable for use in sensitive indoor places.</div>
 
@@ -82,7 +86,16 @@ const Titaninum  = () => {
           </div>
 
 
-     
+          <div className="container-main2">
+          <div className='center-pl-2'><b>Titaninum Collection</b></div>
+      <div className='center-pl2-2'>Our versatile and elegant Gold Collection cabinets come in an array of designs and finishes, perfect for elevating the style and feel of your kitchen. As all Forevermark cabinets are designed with the utmost quality and durability, you can rest assured that your kitchen will be beautiful and functional for years to come. Select styles feature Waterborne UV Finishes from Sherwin Williams and Greenguard Gold certification, which ensures that a product is acceptable for use in sensitive indoor places.</div>
+
+         <img className='img-front-silver' src={frontslide} />
+       
+         <Header/>
+ 
+           </div>
+      
 
 
  
@@ -129,26 +142,19 @@ const Titaninum  = () => {
 
 
 <div class="container-g2">
-  <div className="bottom-left"></div>
-  <div class="top-left-g2"><img className="pl-g12" src={p6} /></div>
-   <div className="top-right-t2lay">Midtown Grey (TG)</div>
-  <div className="bottom-right">
-   <img className='pl-g-layout-g2' src={p4} />  
    
-
-    <div className="bottom-right-2-t2lay">
-    
-    <div className=""> For a contemporary, modern look, the Midtown Grey cabinets are the perfect choice for a clean, updated feel.</div>
-    <div className="">
-    <ul className="ul1-gall-layout">
-    
-    <li>Constructed of solid birch</li>
-     <li>Undermount, full extension drawer glides with soft closing feature</li>
-     <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
-     <li>Concealed 6-way adjustable soft close door hinges</li>
-    <li>Waterborne UV Finish</li>
-    </ul>
-    <div className="" >
+<div className="bottom-left-lay2"></div>
+<div className="top-left-gall-lay2"> <div className="rope-gall-lay2-tit2">Midtown Grey (TG)</div>
+  <div className="top-left2-gall-lay2-tit2"> For a contemporary, modern look, the Midtown Grey cabinets are the perfect choice for a clean, updated feel.
+    <div>
+     <ul className="ul1-gall-layout">
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      
+     </ul>  
+     <div className="" >
     <button className="spec2-gall2-g2" onClick={togglet2}>VIEW SPECS SHEET</button>
     <Modalt2
          isShowingt2={isShowingt2}
@@ -156,11 +162,18 @@ const Titaninum  = () => {
               />
           
     </div>
-</div>
-     </div>
-     <div class="centered-mid-g2tit"><img className="pl-glayout" src={p5} /></div>
-
   </div>
+ </div>
+   <div className="">
+   <img className='pl1-gall-lay2' src={p4} /> 
+   </div>
+
+</div>
+
+<div className="top-right-gall-lay2"><img className="pl2-gall-lay2" src={p6} /></div>
+
+  <div className="centered-gall-lay2"><img className="pl3-gall-lay2-p4" src={p5} /></div>
+  
   
   
 

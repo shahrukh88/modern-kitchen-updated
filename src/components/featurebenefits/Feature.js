@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"; 
 import React from 'react';
 
-import feature from '../mainpage/images/featurelogo.jpg' ;
+import frontslide from '../mainpage/images/featurelogo.jpg' ;
 import kitchenlogo from '../mainpage/images/kitchenlogo.png' ;
 
 
@@ -20,12 +20,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './Feature.css';
 import Footer from "../footer/Footer";
+import '../platinum/Main2.css';
+
+import '../platinum/gallery.css';
+import '../platinum/gallery2.css';
+
+import '../platinum/gallery3.css';
+import '../mainpage/Main.css'
+import '../platinum/gallery-layout.css';
+
+import '../platinum/gallery-layout-2.css';
+import '../platinum/center.css';
+import Header from './Header-feature'
 
 
 const Feature = () => {
   return (
     <div>
-        <div className="container">      
+        <div className="container-main1">      
         <div className="nav-main">
            
            <div>
@@ -52,13 +64,22 @@ const Feature = () => {
          
 
   
-  <img className='img' src={feature} />
+  <img className='img' src={frontslide} />
         <div className='center-feature'><b>Features Benefits</b></div>
            
           </div>
 
+          <div className="container-main2">
+          <div className='center-feature'><b>Features Benefits</b></div>
+        
+         <img className='img-front-silver' src={frontslide} />
+       
+         <Header/>
+ 
+           </div>
+      
 
-          <div className='label-feature'><b>Our Commitment to Quality</b></div>
+          <div className='label-feature-2'><b>Our Commitment to Quality</b></div>
        
        <br/>
 
@@ -88,7 +109,7 @@ Forevermark is proud to offer assembled cabinets that are KCMA crtified. KCMA ce
 </div>
   <div className="top-right-feature">
  
-<img className='feature-logo' src={f2} />
+<img className='feature-logo2' src={f2} />
 
  </div>
   
@@ -110,21 +131,21 @@ Forevermark is a member at the National Kitchen & Bath Association. Being part o
   
 </div>
 <br/><br/><br/>
-<div className="featurein">FEATURED IN</div>
+<div className="feature-in"><h3>FEATURED IN</h3></div>
 <div className="pad-feature-mark">
 <div className="row-feature-mark">
   <div className="column-feature-mark">
   <img className='mark-mr' src={m1} />
    </div>
   <div className="column-feature-mark">
-  <img  src={m2} />
+  <img className='mark-mr' src={m2} />
    </div>
   <div className="column-feature-mark">
-  <img className='mark-mr2' src={m3} />
+  <img className='mark-mr' src={m3} />
     </div>
     
   <div className="column-feature-mark">
-  <img className='' src={m4} />
+  <img className='mark-mr' src={m4} />
     </div>
 </div>
 </div>

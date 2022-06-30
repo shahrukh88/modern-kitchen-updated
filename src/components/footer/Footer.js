@@ -18,8 +18,9 @@ const Footer = () => {
 <Link className="link-footer-link" to="/Contact">Contact</Link>
 <Link className="link-footer-link" to="#">Catalog</Link>
 <Link className="link-footer-link" to="/feature">Benefits</Link>
-<Link className="link-footer-link" to="/term">Terms & Conditions</Link>
-
+<div className='top-term'>
+<Link className="link-footer-link-term" to="/term">Terms & Conditions</Link>
+</div>
 </div>
    
 

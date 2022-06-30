@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"; 
 import React from 'react';
 
-import Term from '../mainpage/images/term.jpg' ;
+import frontslide from '../mainpage/images/term.jpg' ;
 import kitchenlogo from '../mainpage/images/kitchenlogo.png' ;
 
 import Footer from "../footer/Footer";
@@ -11,13 +11,27 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './TermCondition.css';
 
 
+import '../platinum/Main2.css';
+
+import '../platinum/gallery.css';
+import '../platinum/gallery2.css';
+
+import '../platinum/gallery3.css';
+import '../platinum/center.css';
+
+import '../platinum/gallery-layout.css';
+
+
+import '../platinum/center.css';
+import Header from './Header-term'
+
 import '../featurebenefits/Feature.css'
 
 
 const TermConditions = () => {
   return (
     <div>
-        <div className="container">      
+        <div className="container-main1">      
         <div className="nav-main">
            
            <div>
@@ -43,10 +57,19 @@ const TermConditions = () => {
          </div> 
 
   
-  <img className='img' src={Term} />
+  <img className='img' src={frontslide} />
         <div className='center-term'><b>Terms & Conditions</b></div>
            
           </div>
+          <div className="container-main2">
+          <div className='center-term-2'><b>Terms & Conditions</b></div>
+       
+         <img className='img-front-term' src={frontslide} />
+       
+         <Header/>
+ 
+           </div>
+      
 
 
 

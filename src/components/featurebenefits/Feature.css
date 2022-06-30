@@ -44,11 +44,13 @@
       
     }
   
-    .label-feature {
+    .label-feature-2 {
         margin-top: 4%;
         width: 35%;
         margin-left: 11%;
-        padding-left: 3vw;
+        padding-top: .5%;
+        padding-bottom: .5%;
+        padding-left: 2vw;
         text-align: left;
         font-size: 2vw;
         color: white;
@@ -100,12 +102,17 @@
       .feature-logo{
         width: 11vw;
         margin-left: 37vw;
-        margin-top: 4.2vw;
+        margin-top: 4.8vw;
+      }
+      .feature-logo2{
+        width: 10vw;
+        margin-left: 37vw;
+        margin-top: 4.5vw;
       }
       .feature-logo3{
-        width: 11vw;
+        width: 10vw;
         margin-left: 37vw;
-        margin-top: 3vw;
+        margin-top: 4vw;
       }
       .container-feature {
   position: relative;
@@ -129,6 +136,11 @@
 .feature-h3{
   font-family: 'Poppins', sans-serif;
  font-size: 1.5vw;
+}
+.feature-in{
+  font-family: 'Poppins', sans-serif;
+ font-size: 1.5vw;
+margin-left: 11vw;
 }
 .logo-img-feature { 
   width: 20%;
@@ -154,10 +166,12 @@ padding:2%;
 margin-left:15vw;}
 
 .mark-mr{
-  padding-left: 3vw;
+  padding-left: 2vw;
+  width: 9vw;
 }
 .mark-mr2{
-  padding-left: 2vw;
+  padding-left: 6vw;
+  width: 9vw;
 }
 .featurein{
   font-size: 1.5vw;
@@ -170,5 +184,33 @@ margin-left:15vw;}
   border-top: 3px solid gray;
   width: 85%;
   margin-left: 6%;
-margin-bottom: 2vw;
+margin-bottom: 5vw;
+}
+
+
+@media (max-width:800px) {
+  .center-feature {
+    top: 60%;
+    width: 46%;
+    margin-left: 10%;
+    padding-left: .3vw;
+    padding-right: 3.5vw;
+    font-size:5vw;
+    
+    
+  }
+  .label-feature-2 {
+    margin-top: -5%;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    padding-left: .5%;
+    text-align: center;
+    font-size: 4vw;
+    
+    
+  }
+
+  
 }

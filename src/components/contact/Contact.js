@@ -79,35 +79,29 @@ const Contact = () => {
        </div>
      <div className="column-contact" >
      <label  className="margright" for="email">Email</label>
-     <input  className="margright2" type="text"id="email"name="lastname"placeholder="someone@example"/>
+     <input  className="margright2" type="text"id="email"name="lastname"placeholder="someone@example.com"/>
      </div>
      </div>
-     <label className="label-text"  for="comment">Questions or Comments</label>
+     <label className="label-text"  for="comment">Questions or Comments</label>    <label className="label-text2" >For the quickest and most thorough response please provide a zip code</label>
     <textarea className="comment-contact" id="comment" name="subject" placeholder="Write something.." ></textarea>
-    <div class="row-contact">
-       <div className="column-contact" >
+   
        <div className="width-captcha">  <Captcha/></div>
-       </div>
-     <div className="column-contact" >
-     <input className="sbmit-form" type="submit" value="SUBMIT"/>
- 
+       <div className="submit-contact">
+     <input className="" type="submit" value="SUBMIT"/>
      </div>
-     </div>
-    
     
 
    </form>
 </div>
 
-<div className="vl"></div>
+<div className="vl2"></div>
 <div className="row-map">
   <div className="column-map" >
     
   <img className='map-img' src={map} />
   <div>
-  <div className="icons-contact"><FontAwesomeIcon icon="fa-solid fa-phone" /><a className="contact-icon" href="tel:912-366-9300">Phone:(912) 366-9300</a></div>
-  <div className="icons-contact"><FontAwesomeIcon icon="fa-solid fa-fax" /><a className="contact-icon" href="Fax:912 366-0122">Fax:(912) 366-0122</a></div>
-  <div className="icons-contact"><FontAwesomeIcon icon="fa-solid fa-envelope" /><a className="contact-icon" href="mailto:team@themodernkitchen.com"> team@themodernkitchen.com </a></div>
+  <div className="icons-contact"><FontAwesomeIcon icon="fa-solid fa-phone" /><a className="contact-icon" href="tel:+1-321-305-7727"><b>Phone:&nbsp;&nbsp;</b>(+1) 321-305-7727</a></div>
+  <div className="icons-contact2"><FontAwesomeIcon icon="fa-solid fa-envelope" /><a className="contact-icon" href="mailto:team@themodernkitchen.com"><b> team@themodernkitchen.com </b></a></div>
 
   </div>
       </div>

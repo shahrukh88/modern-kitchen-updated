@@ -113,7 +113,7 @@
   .rope-galls1{
     background-color: rgba(170, 20, 20, 0.6);
     color: rgba(255, 255, 255, 1);
-    width: 35%;
+    width: 38%;
    padding: .8vw;
    height: auto;
     font-size: 1.5vw;
@@ -336,7 +336,7 @@
     } 
     .pl3-galltti1{
       width: 15.7vw;
-      margin-top: 88.2vw;
+      margin-top: 87.5vw;
       } 
     .pl3-gallt3{
       width: 15.7vw;
@@ -345,13 +345,13 @@
 
       .pl3-galltit3{
         width: 15.7vw;
-        margin-top: 25.8vw;
+        margin-top: 24.8vw;
         } 
   
 
       .pl3-gold3{
         width: 15.7vw;
-        margin-top: 26.8vw;
+        margin-top: 23vw;
         } 
     .pl3-gallg1{
       width: 15.7vw;
@@ -375,6 +375,12 @@
             margin-right: 1vw;
             height: 28vw;
             } 
+            .pl3-gallplat7{
+              width: 15vw;
+              margin-top: 25.5vw;
+              margin-right: 1vw;
+              height: 28vw;
+              } 
   .top-left2-gallt1 {
     position: absolute;
     top: 5vw;
@@ -576,11 +582,23 @@ margin-left: 5%;
     width: 15.7vw;
     margin-top: 86.5vw;
     }
-
+    .pl3-gallsilver1{
+      width: 15.7vw;
+      margin-top: 86vw;
+      }
     .pl3-goldl1{
       width: 15.7vw;
-      margin-top: 83.5vw;
+      margin-top: 80.5vw;
       }
+      
+    .pl3-goldcenter1{
+      width: 15.7vw;
+      margin-top: 83vw;
+      }
+      .pl3-goldcenter3{
+        width: 15.7vw;
+        margin-top: 26.5vw;
+        }
     .pl3-galls1{
       width: 14vw;
       margin-top: 28vw;
@@ -689,4 +707,233 @@ color: white;
 opacity: 100%;
 
 background-color: rgba(39, 9, 0, 1);
+}
+
+@media (max-width:800px) {
+  .rope-galls1{
+     width: 99%;
+    font-size: 4vw;
+    margin-left: -3vw;
+  
+  }
+  .rope-gall1{
+    width: 99%;
+   font-size: 4vw;
+   margin-left: -3vw;
+ 
+ }
+ .rope-gall3{
+  width: 99%;
+ font-size: 4vw;
+ margin-left: -3vw;
+
+}
+
+.rope-gall3{
+  width: 99%;
+ font-size: 4vw;
+ margin-left: -3vw;
+
+}
+
+.rope-gallp5{
+  width: 99%;
+ font-size: 4vw;
+ margin-left: -3vw;
+
+}
+
+.rope-gallp7{
+  width: 99%;
+ font-size: 4vw;
+ margin-left: -3vw;
+
+}
+  .rope-galls3{
+    width: 99%;
+    font-size: 4vw;
+    margin-left: -3vw;
+
+
+  }
+  .rope-gallg1header{
+    width: 99%;
+    font-size: 4vw;
+    margin-left: -3vw;
+
+
+  }
+  .rope-gallg3header{
+    width: 99%;
+    font-size: 4vw;
+    margin-left: -3vw;
+
+
+  }  
+  .rope-gall1-tit{
+    width: 99%;
+    font-size: 4vw;
+    margin-left: -3vw;
+
+
+  }
+  .rope-gallt3{
+    width: 99%;
+    font-size: 4vw;
+    margin-left: -3vw;
+
+
+  }
+  .top-left2-galls1 {
+    top: 58vw;
+    left: -3vw;
+    width: 90vw;
+    padding: 4vw;
+    padding-left: 5vw;
+    font-size: 3vw;
+
+  }
+  .top-left2-gall1-tit {
+    top: 58vw;
+    left: -3vw;
+    width: 90vw;
+    padding: 4vw;
+    padding-left: 5vw;
+    font-size: 3vw;
+
+  }
+  .top-left2-gallt3 {
+    top: 58vw;
+    left: -3vw;
+    width: 90vw;
+    padding: 4vw;
+    padding-left: 5vw;
+    font-size: 3vw;
+
+  }
+  .top-left2-gall3 {
+    top: 58vw;
+    left: -3vw;
+    width: 90vw;
+    padding: 4vw;
+    padding-left: 5vw;
+    font-size: 3vw;
+
+  }
+  .top-left2-gallp5 {
+    top: 58vw;
+    left: -3vw;
+    width: 90vw;
+    padding: 4vw;
+    padding-left: 5vw;
+    font-size: 3vw;
+
+  }
+  
+  .top-left2-gallp7 {
+    top: 58vw;
+    left: -3vw;
+    width: 90vw;
+    padding: 4vw;
+    padding-left: 5vw;
+    font-size: 3vw;
+
+  }
+  .top-left2-gallg1lay{
+    top: 58vw;
+    left: -3vw;
+    width: 90vw;
+    padding: 4vw;
+    padding-left: 5vw;
+    font-size: 3vw;
+
+  }
+  .top-left2-gall1{
+    top: 58vw;
+    left: -3vw;
+    width: 90vw;
+    padding: 4vw;
+    padding-left: 5vw;
+    font-size: 3vw;
+
+  }
+  .pl1-gall1{
+    width: 39vw;
+  height: 46vw;
+    margin-top:2vw;
+    margin-left: -2vw;
+    margin-right: 10vw;
+  } 
+  .top-right-gall1 {
+    top:1.5vw;
+    right: 6vw;
+  }
+  .pl2-gall1{
+    width: 39vw;
+ 
+}
+  .pl3-gallsilver1{
+    width: 16.7vw;
+    margin-top: 78vw;
+    }
+    .pl3-goldcenter1{
+      width: 16.7vw;
+      margin-top: 78vw;
+     
+    }
+    .pl3-gallp3{
+      width: 16.7vw;
+      margin-top: 18vw;
+     
+    }
+   
+    .pl3-goldcenter3{
+      width: 16.7vw;
+      margin-top: 20vw;
+     
+    }
+    .pl3-galls1{
+      width: 16.7vw;
+      margin-top: 20vw;
+      }
+      .pl3-gall1{
+        width: 16.7vw;
+        margin-top: 80vw;
+        }
+     
+.ul1-gall-layout {
+    
+  font-size: 3vw;
+  font-weight: 600;
+  margin-left: 6%;
+  margin-top: 3%;
+   width: 60vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+.spec2-galls1{
+  margin-left: 24%;
+  font-size: 4vw;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  width: 42vw;
+
+}
+.spec2-gall1{
+  margin-left: 24%;
+  font-size: 4vw;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  width: 42vw;
+
+}
+.top-left2-galls3 {
+  top: 58vw;
+    left: -3vw;
+    width: 90vw;
+    padding: 4vw;
+    padding-left: 5vw;
+    font-size: 3vw;
+     }
+ 
 }

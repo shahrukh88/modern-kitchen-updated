@@ -54,10 +54,13 @@ import './Main2.css';
 import './gallery.css';
 
 import './gallery-layout.css';
+
+import './gallery-layout-2.css';
 import './gallery2.css';
 
 import './gallery3.css';
 import './center.css';
+import Header from './Header-plat'
 
 
 
@@ -75,7 +78,7 @@ const Platinum = () => {
     <div>
         
         
-        <div className="container">
+        <div className="container-main1">
         <div className='center-pl'><b>Platinum Collection</b></div>
       <div className='center-pl2'><div className="textop">With classic comfort and sophisticated refinement, the Platinum Collection features an array of cabinet choices to beautifully update any kitchen. As all Forevermark cabinets are designed with the utmost quality and durability, you can rest assured that your kitchen will be beautiful and functional for years to come. Select styles feature Waterborne UV Finishes from Sherwin<br/>Williams and Greenguard Gold certification, which ensures that a product is acceptable for use in sensitive indoor places.</div></div>
     
@@ -107,7 +110,16 @@ const Platinum = () => {
       <img className='img-front' src={frontslide} />
           </div>
 
-
+          <div className="container-main2">
+          <div className='center-pl-2'><b>Platinum Collection</b></div>
+      <div className='center-pl2-2'><div className="textop">With classic comfort and sophisticated refinement, the Platinum Collection features an array of cabinet choices to beautifully update any kitchen. As all Forevermark cabinets are designed with the utmost quality and durability, you can rest assured that your kitchen will be beautiful and functional for years to come. Select styles feature Waterborne UV Finishes from Sherwin<br/>Williams and Greenguard Gold certification, which ensures that a product is acceptable for use in sensitive indoor places.</div></div>
+    
+         <img className='img-front-silver' src={frontslide} />
+       
+         <Header/>
+ 
+           </div>
+      
  
 
 <div className="container-gall1">
@@ -152,39 +164,37 @@ const Platinum = () => {
 
 
 <div class="container-g2">
-<div className="bottom-left"></div>
-  <div class="top-left-g2"><img className="pl-g12" src={p4} /></div>
-   <div className="top-right-g1lay">Gramercy White (GW)</div>
-  <div className="bottom-right">
-   <img className='pl-g-layout-g2' src={p5} />  
-   
-
-    <div className="bottom-right-2-g2lay">
-    
-    <div className=""> The Ice White Shaker collection features a clean, simple design that pairs well with any layout or color scheme. Its versatility makes it a popular choice in both modern and traditional homes. The Ice White finish lends a clean, classic look for an elegant kitchen update.</div>
-    <div >
-    <ul className="ul1-gall-layout">
-    
-     
-     <li>Constructed of solid birch</li>
-     <li>Undermount, full extension drawer glides with soft closing feature</li>
-     <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
-     <li>Concealed 6-way adjustable soft close door hinges</li>
-    <li>Waterborne UV Finish</li>
+<div className="bottom-left-lay2"></div>
+<div className="top-left-gall-lay2"> <div className="rope-gall-lay2-p2">Gramercy White (GW)</div>
+  <div className="top-left2-gall-lay2-p2"> Clean lines and versatility make the Gramercy White a popular choice for an updated and timeless look in your kitchen.
+    <div>
+     <ul className="ul1-gall-layout">
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      <li>Waterborne UV Finish</li>
     <li>Greenguard Gold Certified</li>
-    </ul>
-    <div className="" >
-    <button className="spec2-gall2-g2" onClick={toggle2}>VIEW SPECS SHEET</button>
+     </ul>  
+     <div className="" >
+     <button className="spec2-gall2-g2" onClick={toggle2}>VIEW SPECS SHEET</button>
     <Modal2
       isShowing2={isShowing2}
       hide2={toggle2}
     />
-  </div>
-</div>
      </div>
-     <div class="centered-mid-g2gold"><img className="pl-glayout" src={p6} /></div>
 
-  </div>
+    </div>
+ </div>
+   <div className="">
+   <img className='pl1-gall-lay2' src={p5} /> 
+   </div>
+
+</div>
+
+<div className="top-right-gall-lay2"><img className="pl2-gall-lay2" src={p4} /></div>
+
+  <div className="centered-gall-lay2"><img className="pl3-gall-lay2-p1" src={p6} /></div>
   
    
 </div>
@@ -232,38 +242,38 @@ const Platinum = () => {
 
 
 <div class="container-g4">
-<div className="bottom-left"></div>
-  <div class="top-left-g2"><img className="pl-g12" src={p10} /></div>
-   <div className="top-right-g1lay">Uptown White (TW)</div>
-  <div className="bottom-right">
-   <img className='pl-g-layout-g2' src={p12} />  
-   
-
-    <div className="bottom-right-2-g2lay">
-    
-    <div className=""> Clean lines, simple design, and versatility never go out of style. The Uptown White cabinet line lends a classic, updated look to any kitchen.</div>
-    <div className="">
-    <ul className="ul1-gall-layout">
-    
-     <li>Constructed of solid birch</li>
-     <li>Undermount, full extension drawer glides with soft closing feature</li>
-     <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
-     <li>Concealed 6-way adjustable soft close door hinges</li>
-    </ul>
-    <div className="" >
+  
+<div className="bottom-left-lay2"></div>
+<div className="top-left-gall-lay2"> <div className="rope-gall-lay2-p2">Uptown White (TW)</div>
+  <div className="top-left2-gall-lay2-p2"> Clean lines, simple design, and versatility never go out of style. The Uptown White cabinet line lends a classic, updated look to any kitchen.
+    <div>
+     <ul className="ul1-gall-layout">
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      
+     </ul>  
+     <div className="" >
     <button className="spec2-gall2-g2" onClick={toggle4}>VIEW SPECS SHEET</button>
     <Modal4
         isShowing4={isShowing4}
         hide4={toggle4}
       />
-  </div>
+  </div> 
+    </div>
+ </div>
+   <div className="">
+   <img className='pl1-gall-lay2' src={p12} /> 
+   </div>
+
 </div>
-     </div>
-     <div class="centered-mid-p5plat"><img className="pl-glayout" src={p11} /></div>
 
-  </div>
+<div className="top-right-gall-lay2"><img className="pl2-gall-lay2" src={p10} /></div>
+
+  <div className="centered-gall-lay2"><img className="pl3-gall-lay2-p4" src={p11} /></div>
   
-
+   
    </div>
 
 
@@ -313,39 +323,36 @@ const Platinum = () => {
 
 <div class="container-g6">
 
-<div className="bottom-left"></div>
-  <div class="top-left-g2"><img className="pl-g12" src={p16} /></div>
-   <div className="top-right-gp6lay">Greystone Shaker (AG)</div>
-  <div className="bottom-right">
-   <img className='pl-g-layout-g2' src={p18} />  
-   
-
-    <div className="bottom-right-2-gp7lay">
-    
-    <div className=""> Enjoy the same contemporary look and feel of a classic shaker cabinet but with a textured finish that gives interest and depth to the kitchen design.</div>
-    <div className="">
-    <ul className="ul1-gall-layout">
-    
-     <li>Constructed of solid birch</li>
-     <li>Undermount, full extension drawer glides with soft closing feature</li>
-     <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
-     <li>Concealed 6-way adjustable soft close door hinges</li>
-     <li>Waterborne UV Finish
-</li>
-     <li>Greenguard Gold Certified</li>
-     </ul>
-    <div className="" >
+<div className="bottom-left-lay2"></div>
+<div className="top-left-gall-lay2"> <div className="rope-gall-lay2-p6">Greystone Shaker (AG)</div>
+  <div className="top-left2-gall-lay2-p6"> Enjoy the same contemporary look and feel of a classic shaker cabinet but with a textured finish that gives interest and depth to the kitchen design.
+    <div>
+     <ul className="ul1-gall-layout">
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      <li>Waterborne UV Finish</li>
+    <li>Greenguard Gold Certified</li>
+     </ul>  
+     <div className="" >
     <button className="spec2-gall2-g2" onClick={toggle6}>VIEW SPECS SHEET</button>
     <Modal6
         isShowing6={isShowing6}
         hide6={toggle6}
       />
   </div>
-</div>
-     </div>
-     <div class="centered-mid-p7plat"><img className="pl-glayout" src={p17} /></div>
+    </div>
+ </div>
+   <div className="">
+   <img className='pl1-gall-lay2' src={p18} /> 
+   </div>
 
-  </div>
+</div>
+
+<div className="top-right-gall-lay2"><img className="pl2-gall-lay2" src={p16} /></div>
+
+  <div className="centered-gall-lay2"><img className="pl3-gall-lay2-p6" src={p17} /></div>
   
 
 
@@ -356,7 +363,7 @@ const Platinum = () => {
 <div className="container-g7">
 <div className="bottom-left-gall1"></div>
 <div className="top-left-gall1"> <div className="rope-gallp7">Lait Grey Shaker (AB)</div>
-  <div className="top-left2-gallp7">Contemporary design, flat doors, and clean lines make the Town Square Grey line the perfect choice for a modern, striking contrast in the kitchen.
+  <div className="top-left2-gallp7">For a softer, yet contemporary kitchen, the Lait Grey Shaker is the perfect cabinet choice. The clean lines and warm grey provide a soothing, comfortable atmosphere.
     <div>
      <ul className="ul1-gall-layout">
       <li>Constructed of solid birch</li>
@@ -386,7 +393,7 @@ const Platinum = () => {
 
 <div className="top-right-gall1"><img className="pl2-gall1" src={p21} /></div>
 
-  <div className="centered-galls1"><img className="pl3-gallp5" src={p20} /></div>
+  <div className="centered-galls1"><img className="pl3-gallplat7" src={p20} /></div>
 
 
 
@@ -394,7 +401,7 @@ const Platinum = () => {
 
 
 
-<div className="marg"></div>
+<div className="marg-pl"></div>
 
 
  
@@ -402,6 +409,7 @@ const Platinum = () => {
          
  
 
+<Footer/>
 
 
 
@@ -411,7 +419,6 @@ const Platinum = () => {
  </div>
 
 
-<Footer/>
     
     </div>
   )

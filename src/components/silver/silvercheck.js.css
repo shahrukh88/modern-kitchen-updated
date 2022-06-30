@@ -33,12 +33,11 @@ import '../platinum/gallery.css';
 import '../platinum/gallery2.css';
 
 import '../platinum/gallery3.css';
-import '../mainpage/Main.css'
+
 import '../platinum/gallery-layout.css';
 
 import '../platinum/gallery-layout-2.css';
 import '../platinum/center.css';
-import Header from './Header-silver'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './silver.css';
@@ -54,7 +53,7 @@ const Silver  = () => {
     <div>
         
         
-        <div className="container-main1">
+        <div className="container">
         <div className='center-pl-s'><b>Silver Collection</b></div>
       <div className='center-pl2-s'>Our Silver Collection features the K-Series line of cabinets, which are designed with a timeless, traditional door profile and versatile color palette to give any kitchen an updated, classic look.</div>
    
@@ -84,19 +83,7 @@ const Silver  = () => {
       <img className='img-front' src={frontslide} />
           </div>
 
-       
-       
-          <div className="container-main2">
-          <div className='center-pl-s2'><b>Silver Collection</b></div>
-      <div className='center-pl2-s2'>Our Silver Collection features the K-Series line of cabinets, which are designed with a timeless, traditional door profile and versatile color palette to give any kitchen an updated, classic look.</div>
-     
-         <img className='img-front-silver' src={frontslide} />
-       
-         <Header/>
- 
-           </div>
-      
-  
+
  
 
           <div className="container-gall1">
@@ -233,11 +220,48 @@ const Silver  = () => {
 
  </div>
 
- <Footer/>
 
+<Footer/>
     
     </div>
   )
 }
 
 export default Silver;
+
+
+///
+
+.center-pl-s {
+    position: absolute;
+    top: 48%;
+    z-index: 2000;
+    width: 25%;
+    margin-left: 9%;
+    text-align: left;
+    font-size: 2.5vw;
+    padding-left: 2%;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(174, 174, 174, 0.6);
+    opacity: 1.9;
+    font-family: 'Poppins';
+    
+  }
+  
+  .center-pl2-s{
+    position: absolute;
+    top: 65%;
+    z-index: 2000;
+    width: 50%;
+    margin-left: 9%;
+    text-align: left;
+    padding: 1vw;
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(51, 44, 46, 0.4);
+    font-family: 'Poppins';
+    opacity: 2;
+  
+    
+  }  
+  

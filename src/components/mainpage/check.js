@@ -1,3 +1,92 @@
+<div className="bottom-left"></div>
+  <div class="top-left-g2"><img className="pl-g12" src={p4} /></div>
+   <div className="top-right-g1lay">Gramercy White (GW)</div>
+  <div className="bottom-right">
+   <img className='pl-g-layout-g2' src={p5} />  
+   
+
+    <div className="bottom-right-2-g2lay">
+    
+    <div className=""> The Ice White Shaker collection features a clean, simple design that pairs well with any layout or color scheme. Its versatility makes it a popular choice in both modern and traditional homes. The Ice White finish lends a clean, classic look for an elegant kitchen update.</div>
+    <div >
+    <ul className="ul1-gall-layout">
+    
+     
+     <li>Constructed of solid birch</li>
+     <li>Undermount, full extension drawer glides with soft closing feature</li>
+     <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+     <li>Concealed 6-way adjustable soft close door hinges</li>
+    <li>Waterborne UV Finish</li>
+    <li>Greenguard Gold Certified</li>
+    </ul>
+    <div className="" >
+    <button className="spec2-gall2-g2" onClick={toggle2}>VIEW SPECS SHEET</button>
+    <Modal2
+      isShowing2={isShowing2}
+      hide2={toggle2}
+    />
+  </div>
+</div>
+     </div>
+     <div class="centered-mid-g2gold"><img className="pl-glayout" src={p6} /></div>
+
+  </div>
+
+
+
+
+<div className="container-g3">
+<div className="bottom-left-gall1"></div>
+<div className="top-left-gall1"> <div className="rope-galls3">K-Espresso (KE)</div>
+  <div className="top-left2-galls3">Our K-Espresso line provides the beauty of natural wood finish with darker espresso tones, giving kitchens an updated, modern look. As all Forevermark cabinets are designed with the utmost quality and durability, you can rest assured that your kitchen will be beautiful and functional for years to come.
+    <div>
+     <ul className="ul1-gall-layout">
+      <li>Constructed of solid birch</li>
+      <li>Undermount, full extension drawer glides with soft closing feature</li>
+      <li>Pre-installed, color-coated metal clip that won’t tarnish</li>
+      <li>Concealed 6-way adjustable soft close door hinges</li>
+      
+     
+     </ul>  
+     <div className="" >
+     <button className="spec2-gall2" onClick={toggles3}>VIEW SPECS SHEET</button>
+    <Modals3
+      isShowings3={isShowings3}
+      hides3={toggles3}
+    />
+
+
+     </div>
+
+    </div>
+ </div>
+   <div className="">
+   <img className='pl1-gall1' src={p7} /> 
+   </div>
+
+</div>
+
+<div className="top-right-gall1"><img className="pl2-gall1" src={p9} /></div>
+
+  <div className="centered-galls1"><img className="pl3-galls1" src={p8} /></div>
+
+
+</div>
+
+
+
+
+
+            
+
+
+
+
+
+
+
+            
+            
 
 @media only screen and (min-width: 700px) and (max-width: 1152px){
   .top-right-s1 {
@@ -805,3 +894,366 @@ export default Titaninum;
 
  
 
+
+
+////
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .nav-main {
+    transition: all 0.1s linear;
+    position: absolute;
+    z-index: 2000;
+    
+    width: 100%;
+    text-align:center;
+    height:9vw;
+    font-family: 'Poppins';
+
+    opacity: 0.8;
+    background-color:rgba(51, 44, 46, 0.6);
+  }
+  .nav-main-2 {
+    transition: all 0.1s linear;
+    position: absolute;
+    z-index: 2000;
+    
+    width: 100%;
+    text-align:center;
+    height:32%;
+    font-family: 'Poppins';
+
+    opacity: 0.8;
+    background-color:rgba(51, 44, 46, 0.6);
+  }
+  .scrollNav {
+    transition: all 0.5s ease-in;
+    z-index: 2000;
+    background: #ffffff;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+  }
+  .styl {
+    padding-top: 80px;
+  }
+  
+  
+  .container {
+    position: relative;
+    font-size: 100%;
+    height: 500%;
+    width: 100%;
+  }
+  
+
+  .center {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  .topleft {
+    position: absolute;
+    top: 8px;
+    margin-left: 50%;
+    font-size: 18px;
+  }
+  
+  .img { 
+    width: 100%;
+    height: auto;
+    opacity: 1;
+  }
+  .img-front { 
+    width: 100%;
+    height: auto;
+    opacity: 1;
+  }
+  .logo-img-m { 
+    width: 20vw;
+  }
+  
+  .center21-main {
+    position: absolute;
+    top: 30%;
+    width: 35%;
+    font-size: bold;
+    margin-left: 33%;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    background-color: rgba(242, 146, 29, 0.7);
+    opacity: 0.9;
+    font-family: 'Poppins', sans-serif;
+    z-index: 2000;
+  }
+  .center22-main {
+    position: absolute;
+    top: 56%;
+    width: 64%;
+    margin-left: 17%;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.2vw;
+    z-index: 2000;
+    color: white;
+    background-color:rgba(51, 44, 46, 0.4);
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.9;
+   font-weight: 500;
+    
+  }
+  
+  .center3-main {
+    position: absolute;
+    top: 79%;
+    width: 15%;
+    padding: 2%;
+
+font-size: bold;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: 'Poppins';
+    color: white;
+    padding-top: 0.2%;
+    padding-bottom: 0.3%;
+    z-index: 2000;
+
+    background-color: rgba(242, 146, 29, 0.6);
+   
+    opacity: 1;
+  
+    
+  }
+  .center3-main:hover{
+    background-color: rgba(242, 146, 29, 0.8);
+   color: white;
+    opacity: 1;
+   
+  }
+  
+  .collection{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 20px;
+    font-size: 10px;
+    color: #2b663a;
+    font-family: 'Poppins';
+  }
+  
+  .vl2 {
+    border-top: 2px solid black;
+   width: 20%;
+   margin-left: 40%;
+   font-family: 'Poppins';
+  }
+  
+  .me{
+    position: fixed;
+  
+    background-color: black;
+  }
+  
+  .link-main:hover {
+    color: #fcb603;
+
+  }
+
+
+  a:active {
+    color: #fcb603;
+  } 
+  
+  .links-main{
+    position: absolute;
+  margin-left: 33vw;
+    font-family: 'Poppins';
+    padding-left: 0%;
+    font-size: 1.2vw;
+    margin-top: -1%;
+    
+  }
+  .link-main{
+    padding: 2vw;
+    font-family: 'Poppins';
+    font-size: 1.2vw;
+    
+   }
+  /* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    background-color:white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .text-center{
+    font-family: 'Poppins';
+    color: rgba(242, 146, 29, 1);
+    font-size: 20px;
+ }
+ 
+/////
+<ul className="menu">
+<li> <Link className="link-main" to="/"> Home </Link></li>
+<li>
+
+    <label for="drop-1" className="toggle"></label>
+    <div className="dropdown">
+    <Link className="link-main" to="#">Cabinets&nbsp;&nbsp;<FontAwesomeIcon icon="fas fa-caret-down" /></Link>
+    <div className="dropdown-content">
+    <input type="checkbox" id="drop-1"/>
+
+    
+         <Link className="sub" to="/titainum">Titaninum Collection</Link>
+           <Link className="sub" to="/platinum">Platinum Collection</Link>
+          <Link className="sub" to="/gold">Gold Collection</Link>
+            <Link className="sub" to="/silver">Silver Collection</Link>
+    </div>
+   </div>
+</li>
+<li>
+
+</li>
+ <li>   <Link className="link-main" to="/Contact"> Contact</Link>    </li>
+<li>   <Link className="link-main" to="/Aboutus"> About</Link></li>
+</ul>
+
+
+
+////
+
+<div className="mySlides fade">
+  <div className="numbertext">1 / 4</div>
+  <Link to="/gold"> 
+            <img className='img' src={gold} />
+            
+        </Link> 
+  
+<div className="text"> <p className="semi"> Gold Collection</p></div>
+</div>
+
+<div className="mySlides fade">
+  <div className="numbertext">2 / 4</div>
+  <Link to="/platinum"> 
+               <img className='img' src={platinum} />
+          
+           </Link> 
+  <div className="text">        <p className="semi">Platinum Collection</p></div>
+</div>
+
+<div className="mySlides fade">
+  <div className="numbertext">3 / 4</div>
+  <Link to="/titainum"> 
+           <img className='img' src={titanium} />
+           </Link>
+  <div className="text">        <p className="semi">Titaninum Collection</p></div>
+</div>
+<div className="mySlides fade">
+  <div className="numbertext">4 / 4</div>
+  <Link to="/silver"> 
+          <img className='img' src={silver} />
+            
+        </Link> 
+  <div className="text">        <p className="semi">Silver Collection</p></div>
+</div>
+
+
+////
+  
+<div className="">
+
+<div id="myCarousel" className="carousel slide" data-ride="carousel">
+  
+  <ol className="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+    <li data-target="#myCarousel"  data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  
+
+
+   <div className="carousel-inner">
+
+    <div className="item active">
+    <Link to="/gold"> 
+          <img className='img' src={gold} />
+          
+      </Link> 
+        <div className="carousel-caption">
+       <div className="text">
+        <p > Gold Collection</p>
+        </div>
+        </div>
+    </div>
+
+    <div className="item">
+    <Link to="/platinum"> 
+             <img className='img' src={platinum} />
+        
+         </Link> 
+
+         <div className="carousel-caption">
+       <div className="text">
+        <p className="semi"> Platinum Collection</p>
+        </div>
+        </div>
+</div>
+  
+    <div className="item">
+    <Link to="/titainum"> 
+         <img className='img' src={titanium} />
+         </Link>
+         <div className="carousel-caption">
+       <div className="text">
+        <p className="semi"> Titaninum Collection</p>
+        </div>
+        </div>
+
+    </div>
+
+    <div className="item">
+    <Link to="/silver"> 
+        <img className='img' src={silver} />
+          
+      </Link> 
+      <div className="carousel-caption">
+       <div className="text">
+        <p className="semi"> Silver Collection</p>
+        </div>
+        </div>
+
+    </div>
+
+  </div>
+
+  <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span className="glyphicon glyphicon-chevron-left"></span>
+    <span className="sr-only">Previous</span>
+  </a>
+  <a className="right carousel-control" href="#myCarousel" data-slide="next">
+    <span className="glyphicon glyphicon-chevron-right"></span>
+    <span className="sr-only">Next</span>
+  </a>
+</div>
+</div>
